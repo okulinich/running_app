@@ -7,7 +7,8 @@
 class Backend : public QObject {
     Q_OBJECT
 public:
-    explicit Backend(QObject *parent = nullptr) {}
+    explicit Backend(QObject *parent = nullptr);
+    ~Backend();
 
     Q_INVOKABLE void startRunning() {
         qDebug() << "Running started!";
@@ -15,3 +16,4 @@ public:
 };
 
 #endif // BACKEND_H
+

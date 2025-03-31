@@ -1,3 +1,4 @@
+#include <QQmlContext>
 #include <QGuiApplication>
 #include <QQmlApplicationEngine>
 #include "backend.h"
